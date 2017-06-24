@@ -126,21 +126,36 @@ h3 {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-background-size: cover;
+	background-size: cover;
 }
+
 #information .panel {
 	opacity: 0.85;
 }
+
+#information .name {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#information .comment {
+	font-size: 1.5em;
+	font-style: italic;
+}
+
 #contact {
 	height: 500px;
 }
+
 footer {
 	padding: 20px 0;
 }
+
 footer .glyphicon {
 	color: #333333;
 	font-size: 60px;
 }
+
 footer .glyphicon:hover {
 	color: #306d9f;
 }
