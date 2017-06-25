@@ -15,7 +15,7 @@ $(document).ready(function () {
 	};
 
 	// Initialize the map object
-	var map = new google.maps.Map(document.getElementById('contact'), options);
+	var map = new google.maps.Map(document.getElementById('map'), options);
 
 	// Add Marker
 	var marker1 = new google.maps.Marker( {

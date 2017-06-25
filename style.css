@@ -20,6 +20,12 @@ html, body {
 	font-family: 'Pacifico', sans-serif;
 }
 
+/* Can't adjust the cart? */
+.fa-shopping-cart {
+	color: #333333;
+	font-size: 60px;
+}
+
 /* padded section */
 .pad-section {
 	padding: 50px 0;
@@ -76,6 +82,7 @@ h3 {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	padding-bottom: 10%;
 }
 
 .shadow {
@@ -99,11 +106,16 @@ h3 {
 	font-family: 'Lato', sans-serif;
 	color: black;
 	text-align: center;
+	padding-top: 5%;
 }
 
 #services {
 	background-color: #B9534B;
 	color: #ffffff;
+}
+
+#services .text-center {
+	padding-bottom: 5%;
 }
 
 #services .glyphicon {
@@ -117,7 +129,8 @@ h3 {
 	vertical-align: middle;
 	width: 140px;
 }
-#information {
+
+#feedback {
 	background: url(https://images.unsplash.com/photo-1492175881389-e5553ef372e0) no-repeat center center fixed; 
 	display: table;
 	height: 800px;
@@ -129,21 +142,31 @@ h3 {
 	background-size: cover;
 }
 
-#information .panel {
+#feedback .panel {
 	opacity: 0.85;
 }
 
-#information .name {
+#feedback .name {
 	font-size: 2em;
 	font-weight: bold;
 }
 
-#information .comment {
+#feedback .comment {
 	font-size: 1.5em;
 	font-style: italic;
 }
 
 #contact {
+	background-color: #B9534B;
+	color: #ffffff;
+}
+
+#contact .fa {
+	color: #FFFFFF;
+	font-size: 60px;
+}
+
+#map {
 	height: 500px;
 }
 
@@ -151,11 +174,3 @@ footer {
 	padding: 20px 0;
 }
 
-footer .glyphicon {
-	color: #333333;
-	font-size: 60px;
-}
-
-footer .glyphicon:hover {
-	color: #306d9f;
-}
